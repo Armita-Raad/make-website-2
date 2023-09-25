@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+  font-family: kalam; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background-color:#FFFCE6FF;
+  transition: color, border,border-radius 2s ;
+}
+h1{
+    width: 300px ;
+    height: 80px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    color: #9E2B2B;
+    transition: color, border,border-radius 2s ;
+    border: 5px solid ;
+    border-radius: 2rem;
+
+}
+nav{
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    border: solid purple 5px;
+    border-radius:2rem;
+    
+}
+.s{
+    margin:  auto;
+    
+}
+ nav a{
+    text-decoration: none;
+    font-size: x-large;
+    color: cornflowerblue;
+}
+.first{
+    width: 70%;
+    height: 20rem;
+    padding: 1rem;
+    border: 5px solid brown;
+    border-radius: 2rem;
+    display: flex;
+    
+    margin: auto;
+    transition: color, border,border-radius 2s ;
+    
+    position: relative;
+    margin: 2rem auto;
+}
+.first p{
+    width: 50%;
+    color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.first img{
+    width: 35%;
+    height: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    border: 2px solid;
+    position: absolute;
+    top: 1rem;
+    left: 38rem;
+    background-size: cover;
+}
+.last{
+    width: 70%;
+    display: flex;
+    border: 5px solid navy;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.end{
+    margin:  0 2rem;
+    
+}
+
+.last a{
+    text-decoration: none;
+    color: blueviolet;
+}

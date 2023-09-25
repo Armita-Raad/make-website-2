@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#FFFCE6FF;
+    transition: color, border,border-radius 2s ;
+    font-family: zeyada;
+    font-size: x-large;
+}
+h1{
+    width: 300px ;
+    height: 80px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    color: #9E2B2B;
+    transition: color, border,border-radius 2s ;
+    border: 5px solid ;
+    border-radius: 2rem;
+
+}
+nav{
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    border: solid purple 5px;
+    border-radius:2rem;
+    
+}
+.s{
+    margin:  auto;
+}
+
+ nav a{
+    text-decoration: none;
+    font-size: x-large;
+    color: cornflowerblue;
+    font-size: xx-large;
+}
+
+
+.nona{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+.cards{
+    border:1px solid gray;
+    min-width: 15rem;
+    height: 20rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    text-align:center;
+    position: relative;
+    
+}
+/* img:nth-child(1){
+    width: 150px;
+    margin-top: 2rem;
+} */
+
+img{
+    margin:2px auto;
+    width: 200px;
+    padding: 20px;
+    border-radius: 2rem;
+    
+}
+
+
+.cards p{
+    margin: 2rem;
+    position: absolute;
+    top: 11rem;
+    
+}
+.cards a{
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    padding:5px 10px ;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 17rem;
+    right: 6.5rem;
+}
+
+.des{
+    width: 70%;
+    padding: 2rem;
+    border: 5px solid gray;
+    align-self: center;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    
+}
+.des p{
+    margin: 1rem 0;
+}
+
+
+
+
+
+.last{
+    width: 70%;
+    display: flex;
+    border: 5px solid navy;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.end{
+    margin:  0 2rem;
+    
+}
+
+.last a{
+    text-decoration: none;
+    color: blueviolet;
+}
